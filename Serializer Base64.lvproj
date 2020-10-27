@@ -11,8 +11,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Benchmark 800kB Input.vi" Type="VI" URL="../unit tests/Benchmark 800kB Input.vi"/>
+			<Item Name="Test Base64 Encoder and Decoder.vi" Type="VI" URL="../unit tests/Test Base64 Encoder and Decoder.vi"/>
+		</Item>
 		<Item Name="Serializer.Base64.lvclass" Type="LVClass" URL="../source/Serializer.Base64.lvclass"/>
-		<Item Name="Test Base64 Encoder and Decoder.vi" Type="VI" URL="../unit tests/Test Base64 Encoder and Decoder.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
