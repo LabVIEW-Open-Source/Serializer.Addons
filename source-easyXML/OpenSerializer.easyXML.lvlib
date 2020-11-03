@@ -4,6 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="_easyXML_Marshal.vi" Type="VI" URL="../_easyXML_Marshal.vi"/>
+	<Item Name="_easyXML_Unmarshal.vi" Type="VI" URL="../_easyXML_Unmarshal.vi"/>
 	<Item Name="easyXML Serializer.vi" Type="VI" URL="../easyXML Serializer.vi"/>
 	<Item Name="Serializer.easyXML.lvclass" Type="LVClass" URL="../Serializer.easyXML.lvclass"/>
 </Library>
