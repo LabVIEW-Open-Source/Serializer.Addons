@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-11-03 17:34:22" Creator="normandinf" Comments="" ID="0b1c12c8383c8b5f7b123e53757e329e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-11-03 17:35:55" Creator="normandinf" Comments="" ID="390bdd7b33efcb0b474b76c7f5f56a34">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_Serializer_easyXML</Package_File_Name>
-    <Library_Version>1.0.0.1</Library_Version>
+    <Library_Version>1.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source-easyXML</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>

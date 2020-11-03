@@ -18,6 +18,7 @@
 		</Item>
 		<Item Name="Base64" Type="Folder">
 			<Item Name="Serializer.Base64.lvclass" Type="LVClass" URL="../source-base64/Serializer.Base64.lvclass"/>
+			<Item Name="Base64 Serializer.vi" Type="VI" URL="../source-base64/Base64 Serializer.vi"/>
 		</Item>
 		<Item Name="template" Type="Folder">
 			<Item Name="OpenSerializer.Template.lvlib" Type="Library" URL="../source-template/OpenSerializer.Template.lvlib"/>
@@ -424,12 +425,6 @@
 				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
 				<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
 			</Item>
-			<Item Name="Base64_Encode.vi" Type="VI" URL="../source/Base64_Encode.vi"/>
-			<Item Name="Base64_Decode.vi" Type="VI" URL="../source/Base64_Decode.vi"/>
-			<Item Name="Base64_CharSet.vi" Type="VI" URL="../source/Base64_CharSet.vi"/>
-			<Item Name="Base64_ByteLUT.vi" Type="VI" URL="../source/Base64_ByteLUT.vi"/>
-			<Item Name="Base64_EncodeAnything.vi" Type="VI" URL="../source/Base64_EncodeAnything.vi"/>
-			<Item Name="Base64_DecodeAnything.vi" Type="VI" URL="../source/Base64_DecodeAnything.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
