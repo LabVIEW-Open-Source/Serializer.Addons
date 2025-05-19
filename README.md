@@ -4,4 +4,4 @@ Base64url uses same logic for encoding and decoding, but with distinct translati
 New encode and decode tables for Base64url were added and code was refactored to allow specifying the tables.
 Base64url encode includes optional padding, decode will check for missing padding and add if neccessary.
 
-Base64url added for use in [Oauth2](https://github.com/LabVIEW-Open-Source/Oauth2) 
+Base64url added for PKCE support in [Oauth2](https://github.com/LabVIEW-Open-Source/Oauth2) 
