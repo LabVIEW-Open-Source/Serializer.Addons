@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2025-05-26 08:06:44" Creator="normandinf" Comments="" ID="2e933e3e72898cf23b3b496fbef644d4">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2025-05-26 08:26:54" Creator="normandinf" Comments="" ID="5d8efa763d097062c97728ee46ce199a">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_Serializer_Base64</Package_File_Name>
-    <Library_Version>1.0.2.5</Library_Version>
+    <Library_Version>1.1.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source-base64</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -17,11 +17,11 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>labview_open_source_lib_data_manipulation &gt;= 1.3.0.12</External_Dependencies>
-      <External_Dependencies>labview_open_source_lib_serializer &gt;= 1.1.0.12</External_Dependencies>
+      <External_Dependencies>labview_open_source_lib_data_manipulation &gt;= 1.6.0.16</External_Dependencies>
+      <External_Dependencies>labview_open_source_lib_serializer &gt;= 1.2.1.16</External_Dependencies>
       <Additional_External_Dependencies>labview_open_source_project_lib_labview_open_source_palette &gt;=1.0.0.2</Additional_External_Dependencies>
-      <Direct_Dependencies>labview_open_source_lib_data_manipulation-1.3.0.12</Direct_Dependencies>
-      <Direct_Dependencies>labview_open_source_lib_serializer-1.1.0.12</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_lib_data_manipulation-1.6.0.16</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_lib_serializer-1.2.1.16</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -39,7 +39,18 @@ OpenSerializer Base64 Encoder</Description>
       <Copyright/>
       <Packager/>
       <URL>https://github.com/LabVIEW-Open-Source/Serializer.Base64</URL>
-      <Release_Notes>- Addition of a merge VI in the palette for selecting the base64 encoder serializer
+      <Release_Notes>Add Base64url support as outlined in RFC 4648 ( https://datatracker.ietf.org/doc/html/rfc4648#section-5 ).
+
+Base64url uses same logic for encoding and decoding, but with distinct translation tables. 
+New encode and decode tables for Base64url were added and code was refactored to allow specifying the tables.
+Base64url encode includes optional padding, decode will check for missing padding and add if neccessary.
+
+Base64url added for PKCE support in [Oauth2](https://github.com/LabVIEW-Open-Source/Oauth2) 
+
+Thanks to all contributors:
+
+Phillip Brooks (@pbrooks100)
+
 </Release_Notes>
     </Description>
     <Destinations>
@@ -471,7 +482,7 @@ OpenSerializer Base64 Encoder</Description>
         <Path>source-base64\Base64 Serializer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B1F231372D4E2E498B714030F24B4468</GUID>
+      <GUID>C9AD45A1EC2743B29C2CD48AF44680B7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
