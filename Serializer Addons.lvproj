@@ -15,6 +15,7 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Benchmark 800kB Input.vi" Type="VI" URL="../unit tests/Benchmark 800kB Input.vi"/>
 			<Item Name="Test Base64 Encoder and Decoder.vi" Type="VI" URL="../unit tests/Test Base64 Encoder and Decoder.vi"/>
+			<Item Name="Test Base64URL Encoder and Decoder.vi" Type="VI" URL="../unit tests/Test Base64URL Encoder and Decoder.vi"/>
 		</Item>
 		<Item Name="Base64" Type="Folder">
 			<Item Name="Serializer.Base64.lvclass" Type="LVClass" URL="../source-base64/Serializer.Base64.lvclass"/>
